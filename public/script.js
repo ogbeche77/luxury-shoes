@@ -17,7 +17,6 @@ const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".products-center");
 
-
 //cart item, has to be a variable with an empty array
 let cart = [];
 
@@ -156,7 +155,7 @@ class UI {
             <div>
               <i class="fas fa-chevron-up fa-2x" data-id=${item.id}></i>
               <p class="item-amount">${item.amount}</p>
-              <i class="fas fa-chevron-down fa-2x" data-id=${item.id}></i> <!---fa-2x was used to make icon bigger--->
+              <i class="fas fa-chevron-down fa-2x" data-id=${item.id}></i> 
             </div>`;
     cartContent.appendChild(div); //this adds the above division
   }
@@ -194,11 +193,9 @@ class UI {
       this.clearCart();
     });
 
-   
-      function myFunction() {
-        document.getElementById("paypal-button");
+    function myFunction() {
+      document.getElementById("paypal-button");
     }
-          
 
     // cart functionality
     cartContent.addEventListener("click", event => {
