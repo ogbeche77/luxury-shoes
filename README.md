@@ -52,4 +52,4 @@ Project is completed but still room for improvement
 
 ## Contact
 
-Created by [@ogbeche77](ogbeche77@yahoo.com)
+ogbeche77@yahoo.com
